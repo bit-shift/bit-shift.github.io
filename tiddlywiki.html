@@ -143,15 +143,35 @@ Error message and password prompt
 
 <li>$:/config/AutoSave</li>
 
+<li>$:/config/DefaultSidebarTab</li>
+
 <li>$:/config/DownloadSaver/AutoSave</li>
 
 <li>$:/config/markdown/dialect</li>
+
+<li>$:/config/Navigation/UpdateAddressBar</li>
+
+<li>$:/config/Navigation/UpdateHistory</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/import</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-image</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/plugins/tiddlywiki/markdown/new-markdown-button</li>
+
+<li>$:/config/Tiddlers/TitleLinks</li>
+
+<li>$:/config/Toolbar/Icons</li>
+
+<li>$:/config/Toolbar/Text</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold-bar</li>
 
 <li>$:/core</li>
 
@@ -174,6 +194,8 @@ Error message and password prompt
 <li>$:/palette</li>
 
 <li>$:/plugins/tiddlywiki/markdown</li>
+
+<li>$:/plugins/tiddlywiki/markdown/new-markdown-button</li>
 
 <li>$:/state/folded/$:/ControlPanel</li>
 
@@ -201,7 +223,13 @@ Error message and password prompt
 
 <li>$:/state/tab/sidebar--595412856</li>
 
+<li>$:/state/tabs/controlpanel/toolbars-1345989671</li>
+
 <li>$:/StoryList</li>
+
+<li>$:/tags/PageControls</li>
+
+<li>$:/tags/ViewToolbar</li>
 
 <li>$:/temp/info-plugin</li>
 
@@ -210,6 +238,16 @@ Error message and password prompt
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
+
+<li>$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint</li>
+
+<li>$:/themes/tiddlywiki/vanilla/metrics/storyleft</li>
+
+<li>$:/themes/tiddlywiki/vanilla/metrics/storyright</li>
+
+<li>$:/themes/tiddlywiki/vanilla/options/sidebarlayout</li>
+
+<li>$:/themes/tiddlywiki/vanilla/options/stickytitles</li>
 
 <li>$:/view</li>
 
@@ -232,19 +270,49 @@ Error message and password prompt
 <div created="20200216050114994" modified="20200216050114994" title="$:/config/AutoSave">
 <pre>no</pre>
 </div>
+<div created="20200216100413273" modified="20200216100423208" title="$:/config/DefaultSidebarTab">
+<pre>$:/core/ui/SideBar/More</pre>
+</div>
 <div created="20200216041203871" modified="20200216041209343" title="$:/config/DownloadSaver/AutoSave">
 <pre>no</pre>
 </div>
 <div created="20200216044738133" modified="20200216044744389" title="$:/config/markdown/dialect">
 <pre>Maruku</pre>
 </div>
-<div created="20200216070649649" modified="20200216070856394" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
+<div created="20200216100233408" modified="20200216100332907" title="$:/config/Navigation/UpdateAddressBar">
+<pre>no</pre>
+</div>
+<div created="20200216100312259" modified="20200216100324407" title="$:/config/Navigation/UpdateHistory">
+<pre>no</pre>
+</div>
+<div created="20200216070649649" modified="20200216095951816" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>hide</pre>
 </div>
 <div created="20200216045713871" modified="20200216045713871" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/import">
 <pre>show</pre>
 </div>
+<div created="20200216095341097" modified="20200216095341097" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
+<pre>show</pre>
+</div>
 <div created="20200216045620576" modified="20200216045712998" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-image">
+<pre>hide</pre>
+</div>
+<div created="20200216095926128" modified="20200216095926128" title="$:/config/PageControlButtons/Visibility/$:/plugins/tiddlywiki/markdown/new-markdown-button">
+<pre>hide</pre>
+</div>
+<div created="20200216100255887" modified="20200216100259919" title="$:/config/Tiddlers/TitleLinks">
+<pre>yes</pre>
+</div>
+<div created="20200216100346308" modified="20200216100357675" title="$:/config/Toolbar/Icons">
+<pre>yes</pre>
+</div>
+<div created="20200216100350623" modified="20200216100406628" title="$:/config/Toolbar/Text">
+<pre>no</pre>
+</div>
+<div created="20200216100036767" modified="20200216100102603" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold">
+<pre>hide</pre>
+</div>
+<div created="20200216100040078" modified="20200216100047937" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold-bar">
 <pre>hide</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.21">
@@ -9752,7 +9820,19 @@ very-muted-foreground: #898989</pre>
     }
 }</pre>
 </div>
-<div created="20200216050252548" modified="20200216050255022" title="$:/state/folded/$:/ControlPanel">
+<div caption="{{$:/plugins/tiddlywiki/markdown/images/new-markdown-button}} {{$:/language/Buttons/NewMarkdown/Caption}}" created="20200216095944536" description="{{$:/language/Buttons/NewMarkdown/Hint}}" modified="20200216095944536" tags="$:/tags/PageControls" title="$:/plugins/tiddlywiki/markdown/new-markdown-button">
+<pre>&lt;$button tooltip={{$:/language/Buttons/NewMarkdown/Hint}} aria-label={{$:/language/Buttons/NewMarkdown/Caption}} class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;
+&lt;$action-sendmessage $message=&quot;tm-new-tiddler&quot; type=&quot;text/x-markdown&quot;/&gt;
+&lt;$list filter=&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]&quot;&gt;
+{{$:/plugins/tiddlywiki/markdown/images/new-markdown-button}}
+&lt;/$list&gt;
+&lt;$list filter=&quot;[&lt;tv-config-toolbar-text&gt;prefix[yes]]&quot;&gt;
+&lt;span class=&quot;tc-btn-text&quot;&gt;&lt;$text text={{$:/language/Buttons/NewMarkdown/Caption}}/&gt;&lt;/span&gt;
+&lt;/$list&gt;
+&lt;/$button&gt;
+</pre>
+</div>
+<div created="20200216050252548" modified="20200216100058158" title="$:/state/folded/$:/ControlPanel">
 <pre>show</pre>
 </div>
 <div created="20200216065700220" modified="20200216065700220" title="$:/state/palettemanager/$:/jd/palette/BrownOne/dirty-indicator">
@@ -9767,7 +9847,7 @@ very-muted-foreground: #898989</pre>
 <div created="20200216063340615" modified="20200216063340615" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20200216040929639" modified="20200216065505840" title="$:/state/tab--1963855381">
+<div created="20200216040929639" modified="20200216100208042" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/Palette</pre>
 </div>
 <div created="20200216045514704" modified="20200216045516965" title="$:/state/tab--2112689675">
@@ -9776,8 +9856,8 @@ very-muted-foreground: #898989</pre>
 <div created="20200216063406112" modified="20200216063419841" title="$:/state/tab-1163638994">
 <pre>$:/core/ui/MoreSideBar/Plugins/Theme</pre>
 </div>
-<div created="20200216035856322" modified="20200216065505088" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Appearance</pre>
+<div created="20200216035856322" modified="20200216100440151" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20200216035858508" modified="20200216050113001" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/General</pre>
@@ -9788,10 +9868,19 @@ very-muted-foreground: #898989</pre>
 <div created="20200216063343953" modified="20200216063343953" title="$:/state/tab/sidebar--1435920229">
 <pre>$:/core/ui/SideBar/Tools</pre>
 </div>
-<div created="20200216040937317" modified="20200216070858069" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Open</pre>
+<div created="20200216040937317" modified="20200216095356530" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div created="20200216070850063" list="" modified="20200216070850063" title="$:/StoryList">
+<div created="20200216095501860" modified="20200216100149206" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/EditorToolbar</pre>
+</div>
+<div created="20200216070850063" list="$:/ControlPanel $:/config/Toolbar/Icons [[Test Tiddler]]" modified="20200216100343166" title="$:/StoryList">
+<pre></pre>
+</div>
+<div created="20200216095944539" list="$:/core/ui/Buttons/home $:/core/ui/Buttons/close-all $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-tiddler $:/plugins/tiddlywiki/markdown/new-markdown-button $:/core/ui/Buttons/new-journal $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/control-panel $:/core/ui/Buttons/advanced-search $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/more-page-actions" modified="20200216095950604" title="$:/tags/PageControls">
+<pre></pre>
+</div>
+<div created="20200216100120810" list="$:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/info $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/edit $:/core/ui/Buttons/delete $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/core/ui/Buttons/close $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold $:/core/ui/Buttons/fold-bar" modified="20200216100139259" title="$:/tags/ViewToolbar">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9963,6 +10052,21 @@ very-muted-foreground: #898989</pre>
         }
     }
 }</pre>
+</div>
+<div created="20200216095833398" modified="20200216095839477" title="$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint">
+<pre>1900px</pre>
+</div>
+<div created="20200216095721862" modified="20200216095723014" title="$:/themes/tiddlywiki/vanilla/metrics/storyleft">
+<pre>520px</pre>
+</div>
+<div created="20200216095628987" modified="20200216095804990" title="$:/themes/tiddlywiki/vanilla/metrics/storyright">
+<pre>1370px</pre>
+</div>
+<div created="20200216095513746" modified="20200216095519343" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
+<pre>fixed-fluid</pre>
+</div>
+<div created="20200216095527849" modified="20200216095538757" title="$:/themes/tiddlywiki/vanilla/options/stickytitles">
+<pre>no</pre>
 </div>
 <div created="20200216040931367" modified="20200216070756224" title="$:/view">
 <pre>classic</pre>

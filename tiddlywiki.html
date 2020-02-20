@@ -269,6 +269,8 @@ Error message and password prompt
 
 <li>$:/state/palettemanager/$:/jd/palette/BrownOne/dirty-indicator</li>
 
+<li>$:/state/plugin-info-1962867710-$:/plugins/jd/mob--715137614</li>
+
 <li>$:/state/plugin-info-896098052-$:/plugins/tiddlywiki/markdown--436478829</li>
 
 <li>$:/state/ShowPaletteEditor</li>
@@ -307,7 +309,13 @@ Error message and password prompt
 
 <li>$:/state/tree/$:/core/macros/</li>
 
+<li>$:/state/tree/$:/core/modules/</li>
+
 <li>$:/state/tree/$:/core/templates/</li>
+
+<li>$:/state/tree/$:/core/ui/</li>
+
+<li>$:/state/tree/$:/core/ui/PageTemplate/</li>
 
 <li>$:/state/tree/$:/GitHub/</li>
 
@@ -315,11 +323,19 @@ Error message and password prompt
 
 <li>$:/state/tree/$:/themes/</li>
 
+<li>$:/state/tree/$:/themes/jd/</li>
+
 <li>$:/state/tree/$:/themes/tiddlywiki/</li>
 
 <li>$:/state/tree/$:/themes/tiddlywiki/snowwhite/</li>
 
 <li>$:/state/tree/$:/themes/tiddlywiki/vanilla/</li>
+
+<li>$:/state/tree/$:/themes/tiddlywiki/vanilla/metrics/</li>
+
+<li>$:/state/tree/$:/themes/tiddlywiki/vanilla/options/</li>
+
+<li>$:/state/tree/$:/themes/tiddlywiki/vanilla/settings/</li>
 
 <li>$:/StoryList</li>
 
@@ -364,6 +380,8 @@ Error message and password prompt
 <li>$:/themes/tiddlywiki/vanilla/options/sidebarlayout</li>
 
 <li>$:/themes/tiddlywiki/vanilla/options/stickytitles</li>
+
+<li>$:/themes/tiddlywiki/vanilla/sticky</li>
 
 <li>$:/view</li>
 
@@ -10612,23 +10630,26 @@ focus: show</pre>
 <div created="20200216065700220" modified="20200216065700220" title="$:/state/palettemanager/$:/jd/palette/BrownOne/dirty-indicator">
 <pre>show</pre>
 </div>
+<div created="20200220205804276" modified="20200220205805246" title="$:/state/plugin-info-1962867710-$:/plugins/jd/mob--715137614">
+<pre>contents</pre>
+</div>
 <div created="20200216044432658" modified="20200216045000886" title="$:/state/plugin-info-896098052-$:/plugins/tiddlywiki/markdown--436478829">
 <pre>contents</pre>
 </div>
 <div created="20200216065648077" modified="20200216065648077" title="$:/state/ShowPaletteEditor">
 <pre>yes</pre>
 </div>
-<div created="20200216063340615" modified="20200220154422193" title="$:/state/sidebar">
-<pre>no</pre>
+<div created="20200216063340615" modified="20200220210856806" title="$:/state/sidebar">
+<pre>yes</pre>
 </div>
-<div created="20200216040929639" modified="20200220154554392" title="$:/state/tab--1963855381">
+<div created="20200216040929639" modified="20200220210125155" title="$:/state/tab--1963855381">
 <pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
 </div>
 <div created="20200216045514704" modified="20200217133509548" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Basics</pre>
 </div>
-<div created="20200216063406112" modified="20200216063419841" title="$:/state/tab-1163638994">
-<pre>$:/core/ui/MoreSideBar/Plugins/Theme</pre>
+<div created="20200216063406112" modified="20200220205742238" title="$:/state/tab-1163638994">
+<pre>$:/core/ui/MoreSideBar/Plugins/Plugins</pre>
 </div>
 <div created="20200220154308374" modified="20200220154456860" title="$:/state/tab-1193531305">
 <pre>$:/plugins/jd/mob/config/misc</pre>
@@ -10642,14 +10663,14 @@ focus: show</pre>
 <div created="20200217133218214" modified="20200220153701792" title="$:/state/tab/moresidebar-1203681481">
 <pre>$:/core/ui/MoreSideBar/System</pre>
 </div>
-<div created="20200216040949324" modified="20200216213246317" title="$:/state/tab/moresidebar-1850697562">
-<pre>$:/core/ui/MoreSideBar/Explorer</pre>
+<div created="20200216040949324" modified="20200220205739773" title="$:/state/tab/moresidebar-1850697562">
+<pre>$:/core/ui/MoreSideBar/Plugins</pre>
 </div>
 <div created="20200216063343953" modified="20200216063343953" title="$:/state/tab/sidebar--1435920229">
 <pre>$:/core/ui/SideBar/Tools</pre>
 </div>
-<div created="20200216040937317" modified="20200216224128601" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Recent</pre>
+<div created="20200216040937317" modified="20200220202257994" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/More</pre>
 </div>
 <div created="20200217133608837" modified="20200220153700891" title="$:/state/tab/sidebar-1845994331">
 <pre>$:/core/ui/SideBar/More</pre>
@@ -10657,40 +10678,61 @@ focus: show</pre>
 <div created="20200216095501860" modified="20200219140423366" title="$:/state/tabs/controlpanel/toolbars-1345989671">
 <pre>$:/core/ui/ControlPanel/Toolbars/PageControls</pre>
 </div>
-<div created="20200216223850159" modified="20200216223850159" title="$:/state/tree/$:/.rich/">
-<pre>show</pre>
+<div created="20200216223850159" modified="20200220205731345" title="$:/state/tree/$:/.rich/">
+<pre>hide</pre>
 </div>
 <div created="20200216223851038" modified="20200216223851039" title="$:/state/tree/$:/.rich/macros/">
 <pre>show</pre>
 </div>
-<div created="20200216213249193" modified="20200216220645594" title="$:/state/tree/$:/core/">
-<pre>show</pre>
+<div created="20200216213249193" modified="20200220205732571" title="$:/state/tree/$:/core/">
+<pre>hide</pre>
 </div>
 <div created="20200216213253063" modified="20200218200933184" title="$:/state/tree/$:/core/macros/">
+<pre>hide</pre>
+</div>
+<div created="20200220205128772" modified="20200220205133694" title="$:/state/tree/$:/core/modules/">
 <pre>hide</pre>
 </div>
 <div created="20200218200935493" modified="20200218201025918" title="$:/state/tree/$:/core/templates/">
 <pre>hide</pre>
 </div>
+<div created="20200220205117304" modified="20200220205126606" title="$:/state/tree/$:/core/ui/">
+<pre>hide</pre>
+</div>
+<div created="20200220205121559" modified="20200220205125320" title="$:/state/tree/$:/core/ui/PageTemplate/">
+<pre>hide</pre>
+</div>
 <div created="20200216220644175" modified="20200216220645053" title="$:/state/tree/$:/GitHub/">
 <pre>hide</pre>
 </div>
-<div created="20200218201028672" modified="20200218201028672" title="$:/state/tree/$:/tags/">
+<div created="20200218201028672" modified="20200220205140712" title="$:/state/tree/$:/tags/">
+<pre>hide</pre>
+</div>
+<div created="20200216214749937" modified="20200220205734965" title="$:/state/tree/$:/themes/">
+<pre>hide</pre>
+</div>
+<div created="20200220205727492" modified="20200220205727492" title="$:/state/tree/$:/themes/jd/">
 <pre>show</pre>
 </div>
-<div created="20200216214749937" modified="20200216215706429" title="$:/state/tree/$:/themes/">
+<div created="20200216214751218" modified="20200220205144768" title="$:/state/tree/$:/themes/tiddlywiki/">
+<pre>show</pre>
+</div>
+<div created="20200216215657311" modified="20200220205148463" title="$:/state/tree/$:/themes/tiddlywiki/snowwhite/">
+<pre>show</pre>
+</div>
+<div created="20200216214753426" modified="20200220205149469" title="$:/state/tree/$:/themes/tiddlywiki/vanilla/">
+<pre>show</pre>
+</div>
+<div created="20200220205203041" modified="20200220205649482" title="$:/state/tree/$:/themes/tiddlywiki/vanilla/metrics/">
+<pre>show</pre>
+</div>
+<div created="20200220205201525" modified="20200220205641027" title="$:/state/tree/$:/themes/tiddlywiki/vanilla/options/">
 <pre>hide</pre>
 </div>
-<div created="20200216214751218" modified="20200216215705577" title="$:/state/tree/$:/themes/tiddlywiki/">
-<pre>hide</pre>
+<div created="20200220205200010" modified="20200220205200010" title="$:/state/tree/$:/themes/tiddlywiki/vanilla/settings/">
+<pre>show</pre>
 </div>
-<div created="20200216215657311" modified="20200216215658214" title="$:/state/tree/$:/themes/tiddlywiki/snowwhite/">
-<pre>hide</pre>
-</div>
-<div created="20200216214753426" modified="20200216215656710" title="$:/state/tree/$:/themes/tiddlywiki/vanilla/">
-<pre>hide</pre>
-</div>
-<div created="20200220153624833" list="[[General Notes]] [[FFXIV Notes]] [[Test Tiddler]]" modified="20200220154211809" title="$:/StoryList">
+<div created="20200220202044718" list="[[General Notes]] [[FFXIV Notes]] [[Test Tiddler]]" modified="20200220210845909" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200216095944539" list="$:/core/ui/Buttons/home $:/core/ui/Buttons/close-all $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-tiddler $:/plugins/tiddlywiki/markdown/new-markdown-button $:/core/ui/Buttons/new-journal $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/control-panel $:/core/ui/Buttons/advanced-search $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/more-page-actions" modified="20200216095950604" title="$:/tags/PageControls">
@@ -10747,11 +10789,11 @@ focus: show</pre>
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;360&quot;
+            &quot;text&quot;: &quot;1920&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;760&quot;
+            &quot;text&quot;: &quot;1080&quot;
         },
         &quot;$:/info/browser/language&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/language&quot;,
@@ -11154,7 +11196,7 @@ focus: show</pre>
     }
 }</pre>
 </div>
-<div created="20200216215017236" modified="20200216215426580" tags="$:/tags/Stylesheet" title="$:/themes/tiddlywiki/vanilla/base">
+<div created="20200216215017236" modified="20200220210000047" tags="$:/tags/Stylesheet" title="$:/themes/tiddlywiki/vanilla/base">
 <pre>\define custom-background-datauri()
 &lt;$set name=&quot;background&quot; value={{$:/themes/tiddlywiki/vanilla/settings/backgroundimage}}&gt;
 &lt;$list filter=&quot;[&lt;background&gt;is[image]]&quot;&gt;
@@ -11992,14 +12034,6 @@ button.tc-btn-invisible.tc-remove-tag-button {
 		width: {{$:/themes/tiddlywiki/vanilla/metrics/storywidth}};
 		padding: 42px 42px 42px 42px;
 	}
-
-&lt;&lt;if-no-sidebar &quot;
-
-	.tc-story-river {
-		width: calc(100% - {{$:/themes/tiddlywiki/vanilla/metrics/storyleft}});
-	}
-
-&quot;&gt;&gt;
 
 }
 
@@ -13769,17 +13803,41 @@ select {
 
 </pre>
 </div>
-<div created="20200216095721862" modified="20200216095723014" title="$:/themes/tiddlywiki/vanilla/metrics/storyleft">
-<pre>520px</pre>
+<div created="20200216095721862" modified="20200220210329326" title="$:/themes/tiddlywiki/vanilla/metrics/storyleft">
+<pre>calc(50% - 385px)</pre>
 </div>
-<div created="20200216095628987" modified="20200216095804990" title="$:/themes/tiddlywiki/vanilla/metrics/storyright">
-<pre>1370px</pre>
+<div created="20200216095628987" modified="20200220210703278" title="$:/themes/tiddlywiki/vanilla/metrics/storyright">
+<pre>calc(50% + 450px)</pre>
 </div>
 <div created="20200216095513746" modified="20200216095519343" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
 <pre>fixed-fluid</pre>
 </div>
 <div created="20200216095527849" modified="20200217135159238" title="$:/themes/tiddlywiki/vanilla/options/stickytitles">
 <pre>yes</pre>
+</div>
+<div created="20200220210026532" modified="20200220210026532" title="$:/themes/tiddlywiki/vanilla/sticky">
+<pre>&lt;$reveal state=&quot;$:/themes/tiddlywiki/vanilla/options/stickytitles&quot; type=&quot;match&quot; text=&quot;yes&quot;&gt;
+``
+.tc-tiddler-title {
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -o-sticky;
+	position: -ms-sticky;
+	position: sticky;
+	top: 0px;
+	background: ``&lt;&lt;colour tiddler-background&gt;&gt;``;
+	z-index: 500;
+}
+
+``
+&lt;$list filter=&quot;[range[100]]&quot;&gt;
+`.tc-story-river .tc-tiddler-frame:nth-child(100n+`&lt;$text text=&lt;&lt;currentTiddler&gt;&gt;/&gt;`) {
+z-index: `&lt;$text text={{{ [[200]subtract&lt;currentTiddler&gt;] }}}/&gt;`;
+}
+`
+&lt;/$list&gt;
+&lt;/$reveal&gt;
+</pre>
 </div>
 <div created="20200216040931367" modified="20200216070756224" title="$:/view">
 <pre>classic</pre>
